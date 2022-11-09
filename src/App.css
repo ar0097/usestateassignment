@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+.App-header {
+  z-index: 1;
+  position: fixed;
+  width: 26.5rem;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-container {
+  margin: 70px 0px;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #cccccc;
+  color: black;
+  transition: 500ms;
+}
+button {
+  border: none;
+  background-color: #d63267;
+  color: white;
+  border-radius: 5px;
+  font-size: small;
+  padding: 0.2rem;
+}
+.body-container h2 {
+  color: #d63267;
+}
